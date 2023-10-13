@@ -1,7 +1,7 @@
 {
   "name": "@mandarvl/mvola",
-  "version": "1.2.0",
-  "description": "The MVola Node library provides convenient access to the MVola API from applications written in server-side Javascript ",
+  "version": "1.2.1",
+  "description": "The MVola Node library provides convenient access to the MVola API. Forked from tsirysndr/mvola-node",
   "main": "dist/src/index.js",
   "private": false,
   "types": "dist/src/index.d.ts",
@@ -12,17 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsirysndr/mvola-node.git"
+    "url": "git+https://github.com/mandarvl/mvola-node.git"
   },
   "keywords": [
     "mvola"
   ],
-  "author": "Tsiry Sandratraina <tsiry.sndr@aol.com>",
+  "author": "Manda Ravalison <manda.ravalison@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tsirysndr/mvola-node/issues"
+    "url": "https://github.com/mandarvl/mvola-node/issues"
   },
-  "homepage": "https://github.com/tsirysndr/mvola-node#readme",
+  "homepage": "https://github.com/mandarvl/mvola-node#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "buffer": "^6.0.3",
