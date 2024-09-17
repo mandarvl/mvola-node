@@ -8,9 +8,10 @@ class AuthService extends Service {
     consumerKey: string,
     consumerSecret: string
   ): Promise<AuthResponse> {
+    const deviceUUID = process.env.DEVICE_UUID;
     const params = qs.stringify({
       grant_type: "client_credentials",
-      scope: "EXT_INT_MVOLA_SCOPE",
+      scope: `EXT_INT_MVOLA_SCOPE device_${deviceUUID}`,
     });
 
     const { data } = await this.client.post<AuthResponse>("/token", params, {
