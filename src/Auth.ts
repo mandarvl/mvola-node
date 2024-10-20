@@ -9,7 +9,7 @@ class AuthService extends Service {
     consumerSecret: string,
     deviceUUID?: string,
   ): Promise<AuthResponse> {
-    let scope = 'EXT_IN_MVOLA_SCOPE';
+    let scope = 'EXT_INT_MVOLA_SCOPE';
     if (deviceUUID) {
       scope += ` device_${deviceUUID}`;
     }

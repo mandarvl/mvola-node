@@ -1,6 +1,6 @@
 {
   "name": "@mandarvl/mvola",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "The MVola Node library provides convenient access to the MVola API. Forked from tsirysndr/mvola-node",
   "main": "dist/src/index.js",
   "private": false,
